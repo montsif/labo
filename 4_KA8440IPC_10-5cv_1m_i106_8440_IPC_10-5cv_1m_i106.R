@@ -87,7 +87,7 @@ tb_prediccion_semillerio[ , pred_acumulada := 0L ]
 #defino los hp ganadores de la BO aca porque necesito usar la dim de dtrain
 kmax_bin           <-  33
 klearning_rate     <-  0.0100964453308008
-knum_iterations    <-  1315
+knum_iterations    <-  1762
 knum_leaves        <-  ceiling(0.632191813215276 / 0.0393238912671434)
 kmin_data_in_leaf  <-  ceiling(dim(dtrain)[1] * 0.0393238912671434)
 kfeature_fraction  <-  0.582879627042637
